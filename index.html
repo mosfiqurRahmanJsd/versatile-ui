@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,54 @@
     <title>Versatile UI</title>
 
     <!-- this is our own stylesheet -->
-     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 
-     <!-- font awesome cdn -->
-      <script src="https://kit.fontawesome.com/2dd9b3fb0a.js" crossorigin="anonymous"></script>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/2dd9b3fb0a.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
     <header class="header">
+        <!-- this is navigation -->
         <nav class="container nav-menu">
-            <h1 class="logo"><em>Fitness</em></h1>
+            <h3 class="logo"><em>Fitness</em></h3>
             <ul class="nav">
-                <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item active"><a class="nav-link text-primary" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="#">Service</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link text-primary" href="#">About</a></li>
             </ul>
             <a href="#" class="menu-bars"><i class="fa-solid fa-bars"></i></a>
         </nav>
+
+        <!-- this is main banner -->
+        <section class="herobox container">
+            <div class="hero-content">
+                <h1 class="hero-title text-primary">Get body in</h1>
+                <h1 class="hero-title text-primary top-margin"><span class="shape">shape</span> & stay healthy</h1>
+                <p class="description">A huge selection of health and fitness content, healthy recipes and
+                    transformation stories to help
+                    you get fit and stay fit!</p>
+
+                <button class="btn-primary join-club hidden">Join Club Now!</button>
+                <button class="btn-primary download hidden">Download App</button>
+            </div>
+            <div class="hero-img">
+                <div class="workout">
+                    <h2 class="text-primary">500+</h2>
+                    <p>Free WOrkout Videos</p>
+                </div>
+                <img src="./images/Images 2.png" alt="">
+                <div class="tutorial">
+                    <div class="ball"></div>
+                    <div>
+                        <h3>350+</h3>
+                        <p>Video Tutorial</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
     <main>
 
@@ -33,4 +64,5 @@
 
     </footer>
 </body>
+
 </html>
