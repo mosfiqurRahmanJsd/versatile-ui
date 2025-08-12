@@ -130,6 +130,7 @@ body {
     width: 193px;
     top: 125px;
     left: 230px;
+    cursor: pointer;
 }
 
 .workout h2 {
@@ -160,6 +161,7 @@ body {
     align-items: center;
     left: -113px;
     top: 417px;
+    cursor: pointer;
 }
 
 .ball {
