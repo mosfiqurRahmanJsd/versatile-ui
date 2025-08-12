@@ -9,5 +9,113 @@
     src: url("./../fonts/Miama.otf"), url("./../fonts/Miama.ttf");
 }
 
+/* universal style */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
+/* shared style */
+.container {
+    width: 73%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+
+
+/* header styles */
+.header {
+    background-image: linear-gradient(180.00deg, rgba(17.411699295043945, 17.411699295043945, 17.411699295043945, 1), rgba(119.41169738769531, 119.41169738769531, 119.41169738769531, 0) 100%);
+}
+
+.nav-menu {
+    display: flex;
+    padding-top: 3.5rem;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2.25rem;
+    color: rgba(230, 83, 60, 1);
+}
+
+.nav {
+    display: flex;
+    gap: 3rem;
+    padding: .25rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    padding: 8px 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.active {
+    border-radius: 46px;
+    background-color: rgba(230, 83, 60, 1);
+}
+
+.menu-bars {
+    display: none;
+}
+
+
+
+
+
+
+/* 
+responsive web design 
+for mobile and tablet device
+*/
+
+/* large device */
+@media (max-width:992px) {}
+
+
+/* medium device */
+@media (max-width:992px) and (min-width:576px) {
+    .container {
+        width: 90%;
+    }
+    .nav {
+        gap: 1.25rem;
+    }
+}
+
+
+/* small device */
+@media (max-width:576px) {
+    .container {
+        width: 90%;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu-bars {
+        display: block;
+        color: rgba(255, 255, 255, 1);
+        font-size: 24px;
+    }
+
+}
