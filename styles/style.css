@@ -322,6 +322,39 @@ img {
 }
 
 
+/* training styles */
+.training h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.training p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+}
+
+.training-container {
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.execises-box1 {
+    grid-column: 1 / span 1;
+}
+
+.execises-box2 {
+    grid-column: 2 / span 3;
+}
+
+.execises-box3 {
+    grid-column: 3 / span 1;
+}
+
+
 
 
 
