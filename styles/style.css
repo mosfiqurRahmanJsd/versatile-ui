@@ -26,7 +26,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.img {
+img {
     width: 100%;
 }
 
@@ -34,11 +34,16 @@ body {
     color: rgba(255, 255, 255, 1)
 }
 
+.bg-primary {
+    background: rgba(0, 0, 0, 1);
+}
+
 
 
 /* header styles */
 .header {
     background: linear-gradient(180deg, rgba(24, 24, 24, 1) 0%, rgba(24, 24, 24, 1) 50%, rgba(105, 105, 105, 1) 100%);
+    margin-bottom: -4px;
 }
 
 .nav-menu {
@@ -98,6 +103,8 @@ body {
     width: 33%;
     position: relative;
 }
+
+
 
 .hero-title {
     font-size: 78px;
@@ -218,6 +225,61 @@ body {
 
 
 
+/* habits styles */
+.habits {
+    padding-top: 100px;
+    padding-bottom: 99px;
+}
+
+.habits h3 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.habits p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.habits-content {
+    width: 64%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.box-container {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+    text-align: center;
+}
+
+.box img {
+    border-radius: 50%;
+}
+
+
+.box h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+
+.box p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
 
 /* 
 responsive web design 
@@ -236,6 +298,8 @@ for mobile and tablet device
 
 /* medium device */
 @media (max-width:992px) and (min-width:576px) {
+
+    /* header styles */
     .container {
         width: 90%;
     }
@@ -273,6 +337,17 @@ for mobile and tablet device
 
     .top-margin {
         margin: 0;
+    }
+
+
+
+    /* habits styles */
+    .box-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .habits-content {
+        width: 100%;
     }
 
 }
@@ -324,6 +399,15 @@ for mobile and tablet device
 
     .top-margin {
         margin: 0;
+    }
+
+    /* habits styles */
+    .box-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habits-content {
+        width: 100%;
     }
 
 }
