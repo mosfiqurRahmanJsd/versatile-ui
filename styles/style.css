@@ -349,7 +349,17 @@ img {
 
 .item {
     height: 202px;
+    display: flex;
 }
+
+.item p {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 31px;
+}
+
+
+
 
 .item-1 {
     width: 23%;
@@ -357,7 +367,13 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    align-items: end;
 }
+
+.item-1 p {
+    color: rgba(0, 0, 0, 1);
+}
+
 
 .item-2 {
     width: 50%;
@@ -369,18 +385,20 @@ img {
 
 .item-3 {
     width: 27%;
-    background-image: url("./../images/exercise3.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./../images/exercise3.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    align-items: end;
 }
 
 .item-4 {
     width: 40%;
-    background-image: url("./../images/exercise4.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url("./../images/exercise4.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    justify-content: end;
 }
 
 .item-5 {
@@ -389,14 +407,16 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    align-items: end;
 }
 
 .item-6 {
     width: 33%;
-    background-image: url("./../images/exercise6.jpg");
+    background-image: linear-gradient(rgba(0, 71, 255, 0.3)), url("./../images/exercise6.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    align-items: end;
 }
 
 
