@@ -420,7 +420,61 @@ img {
 }
 
 
+/* bmi styles */
+.bmi-content {
+    width: 63%;
+    padding-left: 200px;
+    margin-bottom: 88px;
+}
 
+.bmi-content h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.bmi-content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* bmi calculate and chart */
+#calculate {
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.calculate-container {
+    padding: 52px 0;
+}
+
+
+.bmi-title {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+
+.calculate-bmi p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 14px;
+}
+
+th {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 17px;
+}
 
 
 
@@ -501,6 +555,13 @@ for mobile and tablet device
     .left-content,
     .right-img {
         width: 50%;
+    }
+
+
+    /* bmi styles */
+    .bmi-content {
+        width: 100%;
+        padding-left: 0;
     }
 
 }
@@ -602,6 +663,12 @@ for mobile and tablet device
 
     .item-6 {
         display: none;
+    }
+
+    /* bmi styles */
+    .bmi-content {
+        width: 100%;
+        padding-left: 0;
     }
 
 
