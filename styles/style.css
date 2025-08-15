@@ -444,6 +444,7 @@ img {
 /* bmi calculate and chart */
 #calculate {
     background-color: rgba(34, 34, 34, 1);
+    margin-bottom: 88px;
 }
 
 .calculate-container {
@@ -513,6 +514,10 @@ select {
     font-weight: 400;
 }
 
+option {
+    background-color: #393939;
+}
+
 #activity {
     grid-column: 1 / 3;
     margin-bottom: 34px;
@@ -526,8 +531,92 @@ select {
 }
 
 
+/* team style */
+.team-content {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
 
+.team-content h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
 
+.team-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.team-container {
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.team {
+    min-height: 272px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 16px 19px;
+}
+
+.team h4 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 3px;
+}
+
+.team p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.team-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url('./../images/trainer1.png');
+    display: flex;
+    align-items: end;
+}
+
+.team-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url('./../images/trainer2.png');
+    display: flex;
+    align-items: end;
+}
+
+.team-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url('./../images/trainer3.png');
+    display: flex;
+    align-items: end;
+}
+
+.team-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url('./../images/trainer4.png');
+    display: flex;
+    align-items: end;
+}
+
+.team-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url('./../images/trainer5.png');
+    display: flex;
+    align-items: end;
+}
+
+.team-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)), url('./../images/trainer6.png');
+    display: flex;
+    align-items: end;
+}
 
 /* 
 responsive web design 
@@ -662,7 +751,7 @@ for mobile and tablet device
     }
 
     .workout {
-        left: 50px;
+        left: 35%;
     }
 
     .hidden {
@@ -738,6 +827,15 @@ for mobile and tablet device
 
     .calculate-bmi {
         width: 80%;
+    }
+
+    input, select {
+        width: 100%;
+    }
+
+    /* team style */
+    .team-container {
+        grid-template-columns: repeat(1, 1fr);
     }
 
 
