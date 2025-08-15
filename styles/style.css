@@ -508,7 +508,7 @@ form button {
 input[placeholder],
 select {
     padding: 13px 20px;
-    color: rgba(255, 255, 255, 0.6);
+    color: #6F6F6F;
     font-size: 16px;
     font-weight: 400;
 }
