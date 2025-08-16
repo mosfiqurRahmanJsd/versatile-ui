@@ -539,6 +539,10 @@ select {
     margin-bottom: 58px;
 }
 
+#team {
+    padding-bottom: 88px;
+}
+
 .team-content h2 {
     font-size: 48px;
     font-weight: 900;
@@ -618,6 +622,78 @@ select {
     align-items: end;
 }
 
+
+/* footer styles */
+#footer {
+    background-color: #1A1A1A;
+    padding-top: 66px;
+    padding-bottom: 35px;
+}
+
+.footer-title {
+    color: rgba(230, 83, 60, 1);
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.fitness {
+    width: 42%;
+}
+
+.fitness p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+}
+
+.get-started {
+    width: 17%;
+}
+
+.get-started h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 39px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.get-started ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.get-started ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 79px;
+    border-bottom:  2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 36px;
+}
+
+.copywrite {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+
+
+
+
+
 /* 
 responsive web design 
 for mobile and tablet device
@@ -628,8 +704,6 @@ for mobile and tablet device
     .workout {
         right: 0;
     }
-
-
 }
 
 
@@ -710,6 +784,26 @@ for mobile and tablet device
     .calculate-bmi {
         width: 90%;
     }
+
+
+    /* footer styles */
+
+    .fitness {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+
+    .get-started {
+        width: 50%;
+    }
+
+
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+
 
 }
 
@@ -829,13 +923,30 @@ for mobile and tablet device
         width: 80%;
     }
 
-    input, select {
+    input,
+    select {
         width: 100%;
     }
 
     /* team style */
     .team-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* footer styles */
+    .fitness {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .get-started {
+        width: 100%;
+    }
+
+
+    .footer-container {
+        flex-wrap: wrap;
     }
 
 
